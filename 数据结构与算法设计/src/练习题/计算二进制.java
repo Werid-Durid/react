@@ -1,6 +1,6 @@
-package Á·Ï°Ìâ;
+package ï¿½ï¿½Ï°ï¿½ï¿½;
 
-public class ¼ÆËã¶þ½øÖÆ {
+public class ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ {
 	
 	public static int x2=0;
 static int jinzhi(int x) {
@@ -15,6 +15,7 @@ static int jinzhi(int x) {
 			jinzhi(x/2);
 		}
 	}
+	//
 if(x==1) {
 	System.out.println(1+"\t"+1);
 	x2++;}
@@ -24,7 +25,7 @@ if(x==1) {
 	
 }
 public static void main(String[] args) {
-	System.out.println("¸ÃÊýµÄ¶þ½øÖÆÖÐÓÐ"+jinzhi(48)+"¸ö1");
+	System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+jinzhi(48)+"ï¿½ï¿½1");
 }
 }
 
