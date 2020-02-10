@@ -1,0 +1,19 @@
+package 练习题;
+
+public class 计算二进制 {
+	
+	public static int x=0;
+static int jinzhi(int x) {
+	if(x/2>=1) {
+		x++;
+		jinzhi(x/2);
+	}
+	return x;
+	
+}
+public static void main(String[] args) {
+	System.out.println(jinzhi(55));
+}
+}
+
+

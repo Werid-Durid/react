@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/服务器/PHP Built-in Server @ localhost-config" hostname="localhost" id="PHP Built-in Server @ localhost" name="PHP Built-in Server @ localhost" runtime-id="PHP" server-type="org.eclipse.php.server.builtin" server-type-id="org.eclipse.php.server.builtin" start-timeout="30" stop-timeout="15" timestamp="11">
+    <list key="modules" value0="php project::org.eclipse.php.builtin.server.core.moduleFactory:php project::php.web::7.2"/>
+  </server>
+</servers>

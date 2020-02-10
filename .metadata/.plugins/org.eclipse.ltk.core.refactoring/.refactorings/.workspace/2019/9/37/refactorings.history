@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="删除资源“服务器/PHP Built-in Server @ localhost-config/newfile1.php”" deleteContents="false" description="删除资源“服务器/PHP Built-in Server @ localhost-config/newfile1.php”" element1="/服务器/PHP Built-in Server @ localhost-config/newfile1.php" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1568170328804"/>&#x0A;<refactoring comment="删除资源“phpproject”" deleteContents="false" description="删除资源“phpproject”" element1="/phpproject" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1568171739465"/>
+</session>

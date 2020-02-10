@@ -1,0 +1,19 @@
+package 练习题;
+
+import java.util.Scanner;
+
+public class 计算时间 {
+	public static void main(String[] args) {
+		long n;
+		Scanner sc =new Scanner(System.in);
+		n=sc.nextLong();
+		
+		long time3 = System.currentTimeMillis();
+
+		int k=n/2;
+
+        long time4 = System.currentTimeMillis();
+        System.out.println(k);
+        System.out.println("计算n/2所用的的时间为:" + (time4 - time3));
+	}
+}

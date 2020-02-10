@@ -1,0 +1,14 @@
+import  java.util.*;
+/**
+ * ²âÊÔScanner
+ * @author tsy
+ *
+ */
+public class testproject1 {
+	public static void main(String[] args) {
+		Scanner scanner =new Scanner(System.in);
+		System.out.println("ÇëÊäÈëÄãµÄÃû×Ö£º");
+		String name= scanner.nextLine();
+		System.out.println(name);
+	}
+}

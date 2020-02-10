@@ -1,0 +1,24 @@
+package cn.testoop;
+
+import java.util.Scanner;
+
+public class student {
+	static int id;
+	static int age;
+	studentData data = new studentData();
+
+
+
+	public static void study() {
+    	id=1;
+    	System.out.println(id);
+    }
+    public static void main(String[] args) {
+		study();
+		Scanner sc= new Scanner(System.in);
+		age=sc.nextInt();
+		System.out.println(age+"ÄêÁä");
+		
+	}
+}
+	

@@ -1,0 +1,13 @@
+package 学习;
+
+public class 测试内部类 {
+
+}
+class 外部类{
+	public void testout() {
+		
+	}
+	class inter{
+		
+	}
+}

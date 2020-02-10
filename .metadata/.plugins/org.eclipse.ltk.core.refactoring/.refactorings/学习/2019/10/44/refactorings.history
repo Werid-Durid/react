@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="将资源“学习/src/io/test输出流.java”重命名为“test复制文件.java”" description="重命名资源“test输出流.java”" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/io/test输出流.java" name="test复制文件.java" stamp="1572241771477" updateReferences="true"/>&#x0A;&#x0A;</session>

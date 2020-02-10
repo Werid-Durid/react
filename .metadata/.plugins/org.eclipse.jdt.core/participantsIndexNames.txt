@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\DELL\Desktop\java2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1997061990.index
+\javaweb项目\src
+C:\Users\DELL\Desktop\java2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2746201144.index
+\123web\src
+C:\Users\DELL\Desktop\java2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1194398058.index
+\javaweb项目\src
+C:\Users\DELL\Desktop\java2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2113297579.index
+\123web\src

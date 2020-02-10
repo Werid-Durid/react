@@ -1,0 +1,23 @@
+package ѧϰ;
+
+public class interface1 {
+	interface Inter{
+	public abstract void show();
+	
+}
+	static class outer{
+		public static Inter method() {
+			return new Inter() {
+				public void show() {
+					System.out.println("hello world");;
+				}
+			};
+		}
+	}
+	static class outdemo{
+		public static void main(String[] args) {
+			outer.method().show();
+		}
+	}
+}
+	

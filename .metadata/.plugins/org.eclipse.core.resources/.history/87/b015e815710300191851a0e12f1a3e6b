@@ -1,0 +1,10 @@
+package cn.testoop;
+
+public class studentData {
+	public String name;
+	public String gender;
+	public int weith;
+
+	public studentData() {
+	}
+}

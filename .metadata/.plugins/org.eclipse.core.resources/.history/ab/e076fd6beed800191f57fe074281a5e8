@@ -1,0 +1,7 @@
+package Ñ§Ï°;
+
+public interface ½Ó¿Ú {
+	public void rungame();
+	int name=100;
+	
+}

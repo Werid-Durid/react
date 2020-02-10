@@ -1,0 +1,10 @@
+package 学习;
+
+public class 测试接收异常 {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+
+	}
+
+}

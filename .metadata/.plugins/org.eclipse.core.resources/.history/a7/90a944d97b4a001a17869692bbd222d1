@@ -1,0 +1,16 @@
+package 练习题;
+
+public class 计算二进制 {
+	
+	public static int x=0;
+int jinzhi(int x) {
+	x=0;
+	if(x/2>=1) {
+		
+	}
+	return x;
+	
+}
+}
+
+

@@ -1,0 +1,1 @@
+$color-white = #E0E0E0

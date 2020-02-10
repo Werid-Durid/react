@@ -1,0 +1,16 @@
+package 常用类;
+
+import java.util.Set;
+
+/**
+ * @author tsy
+ *	测试treeset的运用
+ *
+ */
+public class TreeSet {
+//	public static void main(String[] args) {
+//		Set<Integer> set=new TreeSet();
+//		
+//		
+//	}
+}

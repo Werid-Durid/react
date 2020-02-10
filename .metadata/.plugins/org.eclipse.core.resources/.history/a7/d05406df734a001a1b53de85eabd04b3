@@ -1,0 +1,60 @@
+package 练习题;
+
+import java.util.Scanner;
+
+public class 计算时间 {
+	public static void main(String[] args) {
+		long n=2;
+		long[] a=new long[10];
+		int i=0;
+		Scanner sc =new Scanner(System.in);
+			while(n!=0) {
+				n=sc.nextLong();		
+				a[i]=n;
+//				System.out.println("a["+i+"]等于"+n);
+				i++;
+			}
+		long time3 = System.currentTimeMillis();			
+//			排序查找使用的时间看数组数量，通常大于5一个百分毫秒
+		while(i-1>0) {
+			int j=i;
+			while(j>0) {
+				j--;
+				if(a[j]>a[i]) {
+					long k2=a[j];
+					a[j]=a[i];
+					a[i]=k2;	
+				}
+			}
+			i--;
+		}
+        long time4 = System.currentTimeMillis();		
+//		遍历输出
+
+		System.out.println("请输入k:");
+		int k=sc.nextInt();
+		sc.close();
+System.out.println("k="+k);
+
+System.out.println("你想要找的那个数时"+a[k+1]);
+
+//        for(int x3=0;x3<a.length;x3++) {
+//		if(a[x3]!=0) {
+//			System.out.println(a[x3]);
+//			}	
+//		}
+        
+        for(long x:a) {
+		if(x!=0) {
+			System.out.println(x);
+			}	
+		}
+//        try {
+//			Thread.sleep(800);
+//		} catch (InterruptedException e) {
+//			// TODO 自动生成的 catch 块
+//			e.printStackTrace();
+//		}
+        System.out.println("排序查找所用的的时间为:" + (time4 - time3));
+	}
+}

@@ -1,0 +1,46 @@
+package 练习题;
+
+import java.util.Scanner;
+
+public class 计算时间 {
+	public static void main(String[] args) {
+		long n=2;
+		long[] a= {};
+		int i=1;
+		Scanner sc =new Scanner(System.in);
+			while(n!=0) {
+				n=sc.nextLong();		
+				a[i++]=n;
+			}
+			
+//			排序
+		while(i>0) {
+			int j=i;
+			while(j<=i&&j==0) {
+				j--;
+				if(a[j]>a[i]) {
+					long k2=a[j];
+					a[j]=a[i];
+					a[i]=k2;	
+				}
+				
+			}
+			i--;
+		}
+		System.out.println(a);
+		
+		long time3 = System.currentTimeMillis();
+
+		Long k=n/2;
+
+        long time4 = System.currentTimeMillis();
+        System.out.println(k);
+//        try {
+//			Thread.sleep(800);
+//		} catch (InterruptedException e) {
+//			// TODO 自动生成的 catch 块
+//			e.printStackTrace();
+//		}
+        System.out.println("计算n/2所用的的时间为:" + (time4 - time3));
+	}
+}
