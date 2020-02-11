@@ -1,0 +1,12 @@
+package tests;
+
+public class maxN {
+	public static void main(String[] args) {
+		long n=1,sum=0;
+		while(sum<8888) {
+			sum+=n++;
+		}
+		System.out.println(n-2);
+	}
+
+}

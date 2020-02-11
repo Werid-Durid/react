@@ -15,12 +15,12 @@ public class rongqi implements jiekou {
 		public static void main(String[] args) {
 		List<Object> List=new ArrayList();
 		
-		//ArrayList:µ×²ãÊµÏÖÊÇÊý×é£¬²éÑ¯¿ì¡£É¾³ý£¬²åÈëºÍÐÞ¸ÄÂý¡£
-		//LinkedList£ºµ×²ãÊµÏÖÊÇÁ´±í£¬²éÑ¯Âý¡£É¾³ý£¬²åÈëºÍÐÞ¸Ä¿ì¡£
-		//Vector£ºÏß³Ì°²È«£¬Ð§ÂÊµÍ¡£
+		//ArrayList:ï¿½×²ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é£¬ï¿½ï¿½Ñ¯ï¿½ì¡£É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½
+		//LinkedListï¿½ï¿½ï¿½×²ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸Ä¿ì¡£
+		//Vectorï¿½ï¿½ï¿½ß³Ì°ï¿½È«ï¿½ï¿½Ð§ï¿½ÊµÍ¡ï¿½
 		List.add("aaa");
 		List.add(new Date());
-		List.add(1234); //×Ô¶¯×°Ïä£¡
+		List.add(1234); //ï¿½Ô¶ï¿½×°ï¿½ä£¡
 		List.add(new dog());
 		
 		System.out.println(List.size());
