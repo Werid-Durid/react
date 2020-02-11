@@ -5,24 +5,21 @@ import java.util.List;
 
 import org.omg.Messaging.SyncScopeHelper;
 public class question1 {
-	public static void main(String[] args) {
-		
+	public static void main(final String[] args) {
 
-		List<Integer> list = new ArrayList<Integer>();
-		for(int i = 11; i <=20; i++){
-		    list.add(i);
+		final List<Integer> list = new ArrayList<Integer>();
+		for (int i = 11; i <= 20; i++) {
+			list.add(i);
 		}
-		//»ñÈ¡Ë÷ÒýÎª5´¦µÄÔªËØ
+		// ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Îª5ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
 		System.out.println(list.get(5));
-		//»ñÈ¡ÆäÖÐÄ³2¸öÔªËØµÄË÷Òý
+		// ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ä³2ï¿½ï¿½Ôªï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½
 		System.out.println(list.indexOf(15));
 		System.out.println(list.indexOf(16));
-		//É¾³ýË÷ÒýÎª3´¦µÄÔªËØ
+		// É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª3ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
 		list.remove(3);
-		
-		
-		
-		List<Integer> List2 = new ArrayList<Integer>();
+
+		final List<Integer> List2 = new ArrayList<Integer>();
 		for(int i2=1;i2<=10;i2++)
 		{
 			List2.add(i2);
