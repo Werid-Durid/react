@@ -1,0 +1,308 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rongqi<testoop>",
+            "request": "launch",
+            "mainClass": "cn.testoop.rongqi",
+            "projectName": "testoop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-rongqitwo<testoop>",
+            "request": "launch",
+            "mainClass": "cn.testoop.rongqitwo",
+            "projectName": "testoop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-student<testoop>",
+            "request": "launch",
+            "mainClass": "cn.testoop.student",
+            "projectName": "testoop"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FileReader<学习>",
+            "request": "launch",
+            "mainClass": "io.FileReader",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-iotest<学习>",
+            "request": "launch",
+            "mainClass": "io.iotest",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<学习>",
+            "request": "launch",
+            "mainClass": "io.test",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-testд<学习>",
+            "request": "launch",
+            "mainClass": "io.testд",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-join<学习>",
+            "request": "launch",
+            "mainClass": "thread.join",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sleep<学习>",
+            "request": "launch",
+            "mainClass": "thread.sleep",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-test<学习>(1)",
+            "request": "launch",
+            "mainClass": "thread.test",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<学习>",
+            "request": "launch",
+            "mainClass": "学习.Test",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-interface1$outdemo<学习>",
+            "request": "launch",
+            "mainClass": "学习.interface1$outdemo",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ð<学习>",
+            "request": "launch",
+            "mainClass": "学习.ð",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ɾ<学习>",
+            "request": "launch",
+            "mainClass": "学习.ɾ",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Iterator1<学习>",
+            "request": "launch",
+            "mainClass": "常用类.Iterator1",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-map<学习>",
+            "request": "launch",
+            "mainClass": "常用类.map",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-map01<学习>",
+            "request": "launch",
+            "mainClass": "常用类.map01",
+            "projectName": "学习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BallGame<学习计划>",
+            "request": "launch",
+            "mainClass": "学习计划1章.BallGame",
+            "projectName": "学习计划"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-animals<戴老师作业>",
+            "request": "launch",
+            "mainClass": "day116.animals",
+            "projectName": "戴老师作业"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-E<戴老师作业>",
+            "request": "launch",
+            "mainClass": "第一次作业.E",
+            "projectName": "戴老师作业"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-E2<戴老师作业>",
+            "request": "launch",
+            "mainClass": "第一次作业.E2",
+            "projectName": "戴老师作业"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-E3<戴老师作业>",
+            "request": "launch",
+            "mainClass": "第一次作业.E3",
+            "projectName": "戴老师作业"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-E4<戴老师作业>",
+            "request": "launch",
+            "mainClass": "第一次作业.E4",
+            "projectName": "戴老师作业"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OutputData<戴老师作业>",
+            "request": "launch",
+            "mainClass": "第一次作业.OutputData",
+            "projectName": "戴老师作业"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-jiechen<戴老师作业>",
+            "request": "launch",
+            "mainClass": "第一次作业.jiechen",
+            "projectName": "戴老师作业"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ϣ<戴老师作业>",
+            "request": "launch",
+            "mainClass": "第一次作业.ϣ",
+            "projectName": "戴老师作业"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-hashmap<泛型>",
+            "request": "launch",
+            "mainClass": "map.hashmap",
+            "projectName": "泛型"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-hashmap3<泛型>",
+            "request": "launch",
+            "mainClass": "map.hashmap3",
+            "projectName": "泛型"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-extendtest<泛型>",
+            "request": "launch",
+            "mainClass": "test01.extendtest",
+            "projectName": "泛型"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-testscanner<泛型>",
+            "request": "launch",
+            "mainClass": "test01.testscanner",
+            "projectName": "泛型"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-kong<泛型>",
+            "request": "launch",
+            "mainClass": "zongfen.kong",
+            "projectName": "泛型"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-timo<泛型>",
+            "request": "launch",
+            "mainClass": "zongfen.timo",
+            "projectName": "泛型"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-question1<练习>",
+            "request": "launch",
+            "mainClass": "niuke.question1",
+            "projectName": "练习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-question2<练习>",
+            "request": "launch",
+            "mainClass": "niuke.question2",
+            "projectName": "练习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-question3<练习>",
+            "request": "launch",
+            "mainClass": "niuke.question3",
+            "projectName": "练习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-lianggeshu<练习>",
+            "request": "launch",
+            "mainClass": "练习1.lianggeshu",
+            "projectName": "练习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-maxN<练习>",
+            "request": "launch",
+            "mainClass": "练习1.maxN",
+            "projectName": "练习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ten8<练习>",
+            "request": "launch",
+            "mainClass": "练习1.ten8",
+            "projectName": "练习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-testpraseint<练习>",
+            "request": "launch",
+            "mainClass": "练习1.testpraseint",
+            "projectName": "练习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-thread<练习>",
+            "request": "launch",
+            "mainClass": "练习1.thread",
+            "projectName": "练习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ι<练习>",
+            "request": "launch",
+            "mainClass": "练习1.ι",
+            "projectName": "练习"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KeyMonitor<飞机游戏1版>",
+            "request": "launch",
+            "mainClass": "飞机游戏1版.KeyMonitor",
+            "projectName": "飞机游戏1版"
+        }
+    ]
+}
