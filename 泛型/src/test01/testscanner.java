@@ -9,9 +9,9 @@ import java.util.Scanner;
  *
  */
 public class testscanner {
-public static void main(String[] args) {
-	Scanner s=new Scanner(System.in);
-	String Str=s.nextLine();
+public static void main(final String[] args) {
+		final Scanner s = new Scanner(System.in);
+		final String Str = s.nextLine();
 	System.out.println(Str);
 }
 }
