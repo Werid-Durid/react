@@ -1,6 +1,6 @@
-package ��ϰ��;
+package 练习题;
 
-public class ���������? {
+public class jinzhi {
 	
 	public static int x2=0;
 static int jinzhi(int x) {
