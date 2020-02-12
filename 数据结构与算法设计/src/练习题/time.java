@@ -65,10 +65,11 @@ public class time {
 //        try {
 //			Thread.sleep(800);
 //		} catch (InterruptedException e) {
-//			// TODO �Զ����ɵ� catch ��
+//			// 
 //			e.printStackTrace();
 //		} 
 
-        System.out.println("����������õĵ�ʱ���?:" + (time4 - time3)+"     ");
+		System.out.println("����������õĵ�ʱ���?:" + (time4 - time3)+"     ");
+		sc.close();
 	}
 }

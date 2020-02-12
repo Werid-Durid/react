@@ -4,8 +4,8 @@ import java.util.HashSet;
 
 public class question3 {
 	 public static void main(final String[] args) {
-		final int count = 0;
-		final HashSet s = new HashSet();
+		// final int count = 0;
+		final HashSet<Integer> s = new HashSet<Integer>();
 		for (int i = 0; i < 6; i++) {
 			for (int a = 0; a < 5; a++) {
 

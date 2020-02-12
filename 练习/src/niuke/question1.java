@@ -2,8 +2,6 @@ package niuke;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.omg.Messaging.SyncScopeHelper;
 public class question1 {
 	public static void main(final String[] args) {
 

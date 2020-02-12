@@ -8,10 +8,11 @@ import java.util.Scanner;
  * @author DELL
  *
  */
-public class testscanner {
+public class  test03 {
 public static void main(final String[] args) {
 		final Scanner s = new Scanner(System.in);
 		final String Str = s.nextLine();
+		s.close();
 	System.out.println(Str);
 }
 }
