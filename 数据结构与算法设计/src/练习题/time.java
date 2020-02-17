@@ -30,7 +30,7 @@ public class time {
 			while (j > 0) {
 				j--;
 				if (a[j] > a[i - 2]) {
-					final double k2 = a[j];
+					double k2 = a[j];
 					a[j] = a[i - 2];
 					a[i - 2] = k2;
 				}

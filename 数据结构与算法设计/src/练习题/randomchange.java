@@ -4,22 +4,22 @@ public class randomchange{
 
         double[] a=null;
         long time3 = System.currentTimeMillis();
-        change1(a, 50);
+        change1(a, 5000);
         long time4 = System.currentTimeMillis();
         System.out.println("这种算法使用了"+ (time4-time3) +"的时间");
         long time5 = System.currentTimeMillis();
-        change2(a, 50);
+        change2(a, 5000);
         long time6 = System.currentTimeMillis();
         System.out.println("这种算法使用了"+ (time6-time5) +"的时间");
         long time7 = System.currentTimeMillis();
-        change3(a, 50);
+        a=change3(a, 5000);
         long time8 = System.currentTimeMillis();
         System.out.println("这种算法使用了"+ (time8-time7) +"的时间");
     }
 
 
     //第一种随机数生成算法
-    public static void change1(double[] a,int length) {
+    public static double[] change1(double[] a,int length) {
         a=new double[length];
         for (int i = 0; i < a.length; i++) {
             a[i]= Math.random()*a.length;
@@ -30,19 +30,18 @@ public class randomchange{
             }
 
         }
-        bianlishuchu(a);
-
+        // bianlishuchu(a);
+        return a;
     }
 
 
     //第二种算法
-    public static void change2(double[] a,int length) {
+    public static double[] change2(double[] a,int length) {
         a=new double[length];
         Boolean[] check=new Boolean[length];
         for (int i = 0; i < check.length; i++) {
             check[i]=false;
         }
-
         for (int i = 0; i < a.length; i++) {
             a[i]= Math.random()*a.length;
             a[i]=a[i]-a[i]%1;
@@ -52,12 +51,12 @@ public class randomchange{
             }
             check[(int) (a[i])]=true;
         }
-        bianlishuchu(a);
-
+        // bianlishuchu(a);
+        return a;
     }
 
     //第三种算法
-    public static void change3(double[]a,int length) {
+    public static double[] change3(double[]a,int length) {
         a=new double[length];
         for (int i = 0; i < a.length; i++) {
             a[i]=i;
@@ -69,11 +68,12 @@ public class randomchange{
             a[i]=a[(int)k];
             a[(int)k]=x;
         }
-        bianlishuchu(a);
+        // bianlishuchu(a);
+        return a;
     }
 
     //封装遍历数组
-    public static void bianlishuchu(double[] a) {
+    public static double[] bianlishuchu(double[] a) {
         double sum=0;
         for (double d : a) {
             sum+=d;
@@ -82,7 +82,7 @@ public class randomchange{
         for (int j2 = 0; j2 < a.length; j2++) {
             System.out.println(a[j2]+"      "+j2);
         }
-        
+        return a;
     }
 
 
