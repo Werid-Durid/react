@@ -15,7 +15,7 @@ public class randomchange{
         a=change3(a, 5000);
         long time8 = System.currentTimeMillis();
         System.out.println("这种算法使用了"+ (time8-time7) +"的时间");
-        
+        //
     }
 
 
