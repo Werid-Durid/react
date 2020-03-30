@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - randomchange",
+            "request": "launch",
+            "mainClass": "练习题.randomchange",
+            "projectName": "数据结构与算法设计"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - halfsearch",
             "request": "launch",
             "mainClass": "练习题.halfsearch",

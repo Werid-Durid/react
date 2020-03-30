@@ -4,17 +4,18 @@ public class randomchange{
 
         double[] a=null;
         long time3 = System.currentTimeMillis();
-        change1(a, 5000);
+        a=change1(a, 5000);
         long time4 = System.currentTimeMillis();
         System.out.println("这种算法使用了"+ (time4-time3) +"的时间");
         long time5 = System.currentTimeMillis();
-        change2(a, 5000);
+        a=change2(a, 5000);
         long time6 = System.currentTimeMillis();
         System.out.println("这种算法使用了"+ (time6-time5) +"的时间");
         long time7 = System.currentTimeMillis();
         a=change3(a, 5000);
         long time8 = System.currentTimeMillis();
         System.out.println("这种算法使用了"+ (time8-time7) +"的时间");
+        
     }
 
 
